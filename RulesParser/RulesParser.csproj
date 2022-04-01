@@ -2,6 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>TheTechIdea.Beep.Workflow.RuleParser</PackageId>
+    <Authors>The Tech Idea</Authors>
+    <Product>TheTechIdea.Beep.Workflow.RuleParser</Product>
+    <Description>A Rule Parser for Beep Data Management Engine</Description>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/The-Tech-Idea/RulesParser</PackageProjectUrl>
+    <PackageIcon>SimpleODM.png</PackageIcon>
+    <RepositoryUrl>https://github.com/The-Tech-Idea/RulesParser</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\OneDrive\SimpleInfoapps\LogoGFx\128\SimpleODM.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TheTechIdea.Beep.DataManagementEngine2.0" Version="1.0.0.5" />
+  </ItemGroup>
 
 </Project>
